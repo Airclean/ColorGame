@@ -1,0 +1,85 @@
+body{
+
+	background-color: #232323;
+	margin: 0;
+	font-family: Avenir;
+	text-transform: uppercase;
+
+}
+
+.colorContainer{
+	width:30%;
+	background: purple;
+	padding-bottom: 30%;
+	float:left;
+	margin:1.66%;
+	transition: background 0.6s;
+	border-radius: 15%;
+
+}
+
+#optionBar{
+	background-color: white;
+	text-align: center;
+}
+
+#container{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+h1{
+
+	line-height: 1.1;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+}
+
+#displayBar{
+	background-color: rgb(0, 180, 255);
+}
+
+#rgb{
+	color: white;
+	font-size: 200%;
+	text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+	align-content: center;
+
+}
+
+.selected
+{
+	color:white;
+	background: steelblue;
+}
+
+button
+{
+	border: none;
+	background: none;
+	color:steelblue;
+	text-transform: uppercase;
+	font-family: Avenir;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+
+}
+
+button:hover
+{
+	color: white;
+	background-color: steelblue;
+	transition: all 0.3s;
+}
+
+span
+{	
+	display: inline-block;
+	width: 200px;
+}
